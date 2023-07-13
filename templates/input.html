@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}MadLib Inputs{% endblock %}
+{% block page_name %}You are on the MadLib Input Form{% endblock %}
+
+{% block content %}
+    <h1>Make your MadLib here!</h1>
+    <form action="/complete">
+        <input type="text" placeholder="Put in a Place" name="place">
+        <input type="text" placeholder="Put in an Adjective" name="adjective">
+        <input type="text" placeholder="Put in a Noun" name="noun">
+        <input type="text" placeholder="Put in a Verb" name="verb">
+        <input type="text" placeholder="Put in a Plural Noun..." name="plural">
+        <button>Submit!</button>
+    </a>
+{% endblock %}
